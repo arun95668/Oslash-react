@@ -1,0 +1,133 @@
+.card {
+    background: #FFFFFF;
+    border: 1px solid #F3F4F6;
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 6%), 0px 1px 3px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+}
+
+.card .topCard {
+
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card.top:hover {
+    background: #F3F4F6;
+    border: 1px solid #E5E7EB;
+}
+
+.card .bg {
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    padding: 6px;
+}
+
+.card .bgicon {
+    background: #FFD02F;
+    border-radius: 50%;
+    height: 36.16px;
+    width: 36.16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+}
+
+.card .wrapper {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-right: 16px;
+}
+
+.card .text {
+    margin-left: 8px;
+    padding: 8px;
+    flex: 1;
+    text-align: left;
+}
+
+.card .icons>div {
+    width: 32px;
+    height: 32px;
+    margin: 0 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottomIcons{
+    margin-right: 16px;
+    padding-left: 8px;
+}
+.bottomIcons>div {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.bottomIcons>div:nth-child(1){
+    margin-top: 0;
+}
+
+.bottomIcons>div.active {
+    background: #DBEAFE;
+    border-radius: 8px;
+}
+
+.card .imgContainer:hover {
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.card .arrowBox>img {
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.card .arrowBox>img.active {
+    transform: rotate(180deg);
+    transition: all .5s;
+}
+
+.card .icons {
+    display: flex;
+    align-items: center;
+}
+
+.card .hide {
+    display: none !important;
+}
+
+.card .input {
+    background: none;
+    border: none;
+}
+
+.card .input1 {
+    border: 1px solid #6366F1;
+    border-radius: 8px;
+}
+
+.card .bottomCard {
+    padding: 8px 16px;
+    display: flex;
+}
+.bottomContent{
+    width: 100%;
+        text-align: left;
+}
+
+@media (max-width: 320px) {
+    .imgHide ,.input1{
+        display: none !important;
+    }
+}
